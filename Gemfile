@@ -1,4 +1,6 @@
 source 'http://rubygems.org'
 
 gem 'rubocop'
-gem 'ruby-lint'
+
+# TODO: flycheck error
+# gem 'ruby-lint'

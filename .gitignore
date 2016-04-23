@@ -2,3 +2,4 @@
 
 vendor/bundler
 vendor/bin
+/bin/*

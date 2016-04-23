@@ -4,3 +4,4 @@ BASE_DIR=`pwd`
 popd > /dev/null
 
 export BUNDLE_GEMFILE=$BASE_DIR/Gemfile
+export RBENV_VERSION=2.3.0

@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source `dirname ${0}`/env
+source `dirname ${0}`/../env
 
 bundle exec ${BASE_DIR}/vendor/bin/`basename ${0}` $*

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export RBENV_ROOT=/opt/rbenv
+export PATH=${RBENV_ROOT}/bin:${PATH}
+eval "$(rbenv init -)"
+
 pushd `dirname ${0}` > /dev/null
 BASE_DIR=`pwd`
 popd > /dev/null

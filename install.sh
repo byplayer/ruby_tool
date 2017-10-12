@@ -12,10 +12,9 @@ export BUNDLE_GEMFILE=$BASE_DIR/Gemfile
 export RBENV_DIR=$BASE_DIR
 
 rm -rf bin
-rm -rf vendor/bin
-rm -rf vendor/bundler
 
 bundle install --path vendor/bundler --binstubs vendor/bin --local
+bundle clean
 
 mkdir bin
 

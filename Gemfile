@@ -6,6 +6,5 @@ gem 'berkshelf'
 gem 'foodcritic'
 gem 'pry'
 gem 'pry-doc'
-gem 'rufo'
 # TODO: flycheck error
 # gem 'ruby-lint'

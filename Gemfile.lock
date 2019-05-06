@@ -179,6 +179,7 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.4.0)
     ruby-progressbar (1.10.0)
+    rufo (0.7.0)
     rufus-lru (1.1.0)
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
@@ -219,6 +220,7 @@ DEPENDENCIES
   pry
   pry-doc
   rubocop
+  rufo
 
 BUNDLED WITH
    1.17.2

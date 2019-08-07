@@ -181,6 +181,8 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
+    rubocop-daemon (0.3.1)
+      rubocop
     ruby-progressbar (1.10.1)
     rubyntlm (0.6.2)
     rubyzip (1.2.3)
@@ -256,6 +258,7 @@ DEPENDENCIES
   pry
   pry-doc
   rubocop
+  rubocop-daemon
 
 BUNDLED WITH
    1.17.2

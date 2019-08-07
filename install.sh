@@ -16,8 +16,13 @@ rm -rf bin
 bundle install --path vendor/bundler --binstubs vendor/bin --local
 bundle clean
 
+# for rubocop-daemon
+cp vendor/bundler/ruby/2.6.0/gems/rubocop-daemon-*/bin/rubocop-daemon-wrapper vendor/bin/
+
 mkdir bin
 
 for bin_file in $( ls vendor/bin  ); do
   cp bin_templ bin/`basename $bin_file`
 done
+
+

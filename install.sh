@@ -1,7 +1,9 @@
 #!/bin/bash
 
-export RBENV_ROOT=/opt/rbenv
-export PATH=${RBENV_ROOT}/bin:${PATH}
+if [ -d /opt/rbenv ]; then
+  export RBENV_ROOT=/opt/rbenv
+  export PATH=${RBENV_ROOT}/bin:${PATH}
+fi
 eval "$(rbenv init -)"
 
 pushd `dirname ${0}` > /dev/null

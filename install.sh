@@ -27,4 +27,6 @@ for bin_file in $( ls vendor/bin  ); do
   cp bin_templ bin/`basename $bin_file`
 done
 
-
+if [ -f bin/bundle ]; then
+  rm bin/bundle
+fi

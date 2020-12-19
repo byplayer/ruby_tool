@@ -19,7 +19,7 @@ bundle install --path vendor/bundler --binstubs vendor/bin --local
 bundle clean
 
 # for rubocop-daemon
-cp vendor/bundler/ruby/2.6.0/gems/rubocop-daemon-*/bin/rubocop-daemon-wrapper vendor/bin/
+cp vendor/bundler/ruby/2.7.0/gems/rubocop-daemon-*/bin/rubocop-daemon-wrapper vendor/bin/
 
 mkdir bin
 

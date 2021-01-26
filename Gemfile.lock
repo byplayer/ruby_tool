@@ -167,8 +167,6 @@ GEM
     net-ssh-multi (1.2.1)
       net-ssh (>= 2.6.5)
       net-ssh-gateway (>= 1.2.0)
-    nokogiri (1.11.1-x86_64-darwin)
-      racc (~> 1.4)
     nokogiri (1.11.1-x86_64-linux)
       racc (~> 1.4)
     nori (2.6.0)
@@ -319,7 +317,6 @@ GEM
     yard (0.9.26)
 
 PLATFORMS
-  x86_64-darwin-19
   x86_64-linux
 
 DEPENDENCIES

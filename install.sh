@@ -15,7 +15,9 @@ export RBENV_DIR=$BASE_DIR
 
 rm -rf bin
 
-bundle install --path vendor/bundler --binstubs vendor/bin --local
+bundle config --local path vendor/bundler
+bundle config --local bin vendor/bin
+bundle install
 bundle clean
 
 # for rubocop-daemon

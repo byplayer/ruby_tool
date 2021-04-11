@@ -171,6 +171,8 @@ GEM
       net-ssh-gateway (>= 1.2.0)
     nokogiri (1.11.3-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.3-x86_64-linux)
+      racc (~> 1.4)
     nori (2.6.0)
     octokit (4.20.0)
       faraday (>= 0.9)
@@ -320,6 +322,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   berkshelf

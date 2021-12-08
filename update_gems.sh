@@ -7,5 +7,5 @@ bundle update
 bundle clean
 
 git add .
-git commit -m ":arrow_up: upgrade gems"
+git commit -m "⬆️ upgrade gems"
 git push

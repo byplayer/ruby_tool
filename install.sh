@@ -1,13 +1,13 @@
 #!/bin/bash
 
 if [ -d /opt/rbenv ]; then
-  export RBENV_ROOT=/opt/rbenv
-  export PATH=${RBENV_ROOT}/bin:${PATH}
+    export RBENV_ROOT=/opt/rbenv
+    export PATH=${RBENV_ROOT}/bin:${PATH}
 fi
 eval "$(rbenv init -)"
 
 pushd `dirname ${0}` > /dev/null
-BASE_DIR=`pwd`
+BASE_DIR=`pwd -L`
 popd > /dev/null
 
 export BUNDLE_GEMFILE=$BASE_DIR/Gemfile
@@ -26,9 +26,14 @@ cp vendor/bundler/ruby/*/gems/rubocop-daemon-*/bin/rubocop-daemon-wrapper vendor
 mkdir bin
 
 for bin_file in $( ls vendor/bin  ); do
-  cp bin_templ bin/`basename $bin_file`
+    cp bin_templ bin/`basename $bin_file`
 done
 
 if [ -f bin/bundle ]; then
-  rm bin/bundle
+    rm bin/bundle
+fi
+
+if [ -f "bin/rubocop-daemon-wrapper" ]; then
+    mkdir rubocop-daemon-bin
+    cp bin/rubocop-daemon-wrapper rubocop-daemon-bin/rubocop
 fi

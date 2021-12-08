@@ -3,3 +3,4 @@
 vendor/bundler
 vendor/bin
 /bin/*
+/rubocop-daemon-bin/*

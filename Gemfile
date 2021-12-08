@@ -9,5 +9,6 @@ gem 'pry'
 gem 'pry-doc'
 gem 'rubocop'
 gem 'rubocop-daemon'
+gem 'solargraph'
 # TODO: flycheck error
 # gem 'ruby-lint'

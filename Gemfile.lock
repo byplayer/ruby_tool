@@ -176,7 +176,6 @@ GEM
       little-plugger (~> 1.1)
       multi_json (~> 1.14)
     method_source (1.0.0)
-    mini_portile2 (2.6.1)
     minitar (0.9)
     mixlib-archive (1.1.7)
       mixlib-log
@@ -195,8 +194,9 @@ GEM
     net-sftp (3.0.0)
       net-ssh (>= 5.0.0, < 7.0.0)
     net-ssh (6.1.0)
-    nokogiri (1.12.5)
-      mini_portile2 (~> 2.6.1)
+    nokogiri (1.13.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.3-x86_64-linux)
       racc (~> 1.4)
     nori (2.6.0)
     octokit (4.21.0)
@@ -367,6 +367,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   berkshelf

@@ -4,4 +4,9 @@ BASE_DIR=`pwd`
 popd > /dev/null
 
 export BUNDLE_GEMFILE=$BASE_DIR/Gemfile
-export RBENV_DIR=$BASE_DIR
+
+type brew > /dev/null
+if [ $? -eq 0 ]; then
+    source $(brew --prefix asdf)/libexec/asdf.sh
+fi
+asdf shell $(cat $BASE_DIR/.tool-versions)

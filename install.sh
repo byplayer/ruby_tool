@@ -1,10 +1,9 @@
 #!/bin/bash
 
-if [ -d /opt/rbenv ]; then
-    export RBENV_ROOT=/opt/rbenv
-    export PATH=${RBENV_ROOT}/bin:${PATH}
+type brew > /dev/null
+if [ $? -eq 0 ]; then
+    source $(brew --prefix asdf)/libexec/asdf.sh
 fi
-eval "$(rbenv init -)"
 
 pushd `dirname ${0}` > /dev/null
 BASE_DIR=`pwd -L`

@@ -1,0 +1,19 @@
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/ext/libyajl2
+/Users/gotoyukio/.asdf/installs/ruby/3.1.2/bin/ruby -I /Users/gotoyukio/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220824-29064-da8dyt.rb extconf.rb
+creating Makefile
+/Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/ext/libyajl2
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/ext/libyajl2
+make DESTDIR\= clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/ext/libyajl2
+make DESTDIR\=
+make: Nothing to be done for `all'.
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/ext/libyajl2
+make DESTDIR\= install
+mkdir -p /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/lib/libyajl2/vendored-libyajl2/lib
+cp libyajl.bundle /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/lib/libyajl2/vendored-libyajl2/lib/libyajl.bundle
+mkdir -p /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/lib/libyajl2/vendored-libyajl2/include/yajl
+cp yajl/*.h /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/libyajl2-2.1.0/lib/libyajl2/vendored-libyajl2/include/yajl

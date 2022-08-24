@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.files = ["ext/libyajl2/extconf.rb".freeze]
   s.homepage = "https://github.com/chef/libyajl2-gem".freeze
   s.licenses = ["Apache-2.0".freeze]
-  s.rubygems_version = "3.3.3".freeze
+  s.rubygems_version = "3.3.7".freeze
   s.summary = "Installs a vendored copy of libyajl2 for distributions which lack it".freeze
 
-  s.installed_by_version = "3.3.3" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.3.7" if s.respond_to? :installed_by_version
 end

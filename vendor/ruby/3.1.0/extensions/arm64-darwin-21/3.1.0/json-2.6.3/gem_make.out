@@ -1,0 +1,13 @@
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/json-2.6.3/ext/json
+/Users/gotoyukio/.asdf/installs/ruby/3.1.2/bin/ruby -I /Users/gotoyukio/.asdf/installs/ruby/3.1.2/lib/ruby/3.1.0 -r ./siteconf20221221-71896-i22tdr.rb extconf.rb
+creating Makefile
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/json-2.6.3/ext/json
+make DESTDIR\= clean
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/json-2.6.3/ext/json
+make DESTDIR\=
+make: Nothing to be done for `all'.
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.1.0/gems/json-2.6.3/ext/json
+make DESTDIR\= install

@@ -5,7 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     aws-eventstream (1.2.0)
-    aws-partitions (1.681.0)
+    aws-partitions (1.684.0)
     aws-sdk-core (3.168.4)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.651.0)
@@ -18,7 +18,7 @@ GEM
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.4)
-    aws-sdk-secretsmanager (1.68.0)
+    aws-sdk-secretsmanager (1.69.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
     aws-sigv4 (1.5.2)
@@ -103,7 +103,7 @@ GEM
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     e2mmap (0.1.0)
-    erubi (1.11.0)
+    erubi (1.12.0)
     erubis (2.7.0)
     faraday (1.4.3)
       faraday-em_http (~> 1.0)
@@ -189,6 +189,7 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
+    mini_portile2 (2.8.1)
     minitar (0.9)
     mixlib-archive (1.1.7)
       mixlib-log
@@ -213,7 +214,8 @@ GEM
       net-ssh (>= 5.0.0, < 8.0.0)
     net-ssh (7.0.1)
     netrc (0.11.0)
-    nokogiri (1.13.10-arm64-darwin)
+    nokogiri (1.13.10)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     nori (2.6.0)
     octokit (4.25.1)
@@ -248,8 +250,8 @@ GEM
       pry (~> 0.11)
       yard (~> 0.9.11)
     public_suffix (5.0.1)
-    racc (1.6.1)
-    rack (2.2.4)
+    racc (1.6.2)
+    rack (2.2.5)
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.6.1)
@@ -278,7 +280,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.11.0)
     rspec-support (3.11.1)
-    rubocop (1.41.0)
+    rubocop (1.41.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.1.2.1)
@@ -400,7 +402,7 @@ GEM
       webrick (~> 1.7.0)
 
 PLATFORMS
-  arm64-darwin-21
+  arm64-darwin-22
 
 DEPENDENCIES
   berkshelf
@@ -413,4 +415,4 @@ DEPENDENCIES
   solargraph
 
 BUNDLED WITH
-   2.3.7
+   2.4.1

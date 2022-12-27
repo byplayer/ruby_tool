@@ -1,0 +1,19 @@
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/Users/gotoyukio/.asdf/installs/ruby/3.2.0/bin/ruby -I /Users/gotoyukio/.asdf/installs/ruby/3.2.0/lib/ruby/3.2.0 extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221227-73171-2d390p sitelibdir\=./.gem.20221227-73171-2d390p clean
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221227-73171-2d390p sitelibdir\=./.gem.20221227-73171-2d390p
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221227-73171-2d390p sitelibdir\=./.gem.20221227-73171-2d390p install
+/opt/homebrew/bin/ginstall -c -m 0755 unf_ext.bundle ./.gem.20221227-73171-2d390p
+
+current directory: /Users/gotoyukio/projects/private/mine/ruby_tool/vendor/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221227-73171-2d390p sitelibdir\=./.gem.20221227-73171-2d390p clean

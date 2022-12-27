@@ -16,6 +16,7 @@ rm -rf bin
 
 bundle config --local path vendor/bundler
 bundle config --local bin vendor/bin
+bundle config build.ffi-yajl --with-ldflags="-Wl,-undefined,dynamic_lookup"
 bundle install
 bundle clean
 

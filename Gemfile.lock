@@ -189,7 +189,6 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
-    mini_portile2 (2.8.1)
     minitar (0.9)
     mixlib-archive (1.1.7)
       mixlib-log
@@ -214,8 +213,9 @@ GEM
       net-ssh (>= 5.0.0, < 8.0.0)
     net-ssh (7.0.1)
     netrc (0.11.0)
-    nokogiri (1.13.10)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.10-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     nori (2.6.0)
     octokit (4.25.1)
@@ -251,7 +251,7 @@ GEM
       yard (~> 0.9.11)
     public_suffix (5.0.1)
     racc (1.6.2)
-    rack (2.2.5)
+    rack (2.2.6.2)
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.6.1)
@@ -403,6 +403,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   berkshelf

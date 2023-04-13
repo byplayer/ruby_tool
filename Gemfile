@@ -10,6 +10,6 @@ gem 'pry'
 gem 'pry-doc'
 gem 'rubocop'
 gem 'rubocop-daemon'
-gem 'solargraph'
+gem 'solargraph', '=0.48.0'
 # TODO: flycheck error
 # gem 'ruby-lint'

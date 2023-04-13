@@ -2,7 +2,7 @@
 
 set -ex
 
-rm Gemfile.lock
+rm -f Gemfile.lock
 bundle update
 bundle clean
 

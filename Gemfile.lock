@@ -348,8 +348,6 @@ GEM
     solargraph-rails (1.1.0)
       activesupport
       solargraph
-    solargraph_frozen_string_literal (0.1.1)
-      solargraph
     solve (4.0.4)
       molinillo (~> 0.6)
       semverse (>= 1.1, < 4.0)
@@ -448,7 +446,6 @@ DEPENDENCIES
   rubocop-daemon
   solargraph (= 0.48.0)
   solargraph-rails
-  solargraph_frozen_string_literal
 
 BUNDLED WITH
    2.4.10

@@ -12,6 +12,5 @@ gem 'rubocop'
 gem 'rubocop-daemon'
 gem 'solargraph', '=0.48.0'
 gem 'solargraph-rails'
-gem 'solargraph_frozen_string_literal'
 # TODO: flycheck error
 # gem 'ruby-lint'

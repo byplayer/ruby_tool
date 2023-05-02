@@ -280,6 +280,7 @@ GEM
       loofah (~> 2.19, >= 2.19.1)
     rainbow (3.1.1)
     rake (13.0.6)
+    rbs (2.8.4)
     regexp_parser (2.8.0)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
@@ -330,18 +331,19 @@ GEM
       faraday (>= 0.17.3, < 3)
     semverse (3.0.2)
     smart_properties (1.17.0)
-    solargraph (0.48.0)
+    solargraph (0.49.0)
       backport (~> 1.2)
       benchmark
-      bundler (>= 1.17.2)
+      bundler (~> 2.0)
       diff-lcs (~> 1.4)
       e2mmap
       jaro_winkler (~> 1.5)
       kramdown (~> 2.3)
       kramdown-parser-gfm (~> 1.1)
       parser (~> 3.0)
-      reverse_markdown (>= 1.0.5, < 3)
-      rubocop (>= 0.52)
+      rbs (~> 2.0)
+      reverse_markdown (~> 2.0)
+      rubocop (~> 1.38)
       thor (~> 1.0)
       tilt (~> 2.0)
       yard (~> 0.9, >= 0.9.24)
@@ -444,7 +446,7 @@ DEPENDENCIES
   pry-doc
   rubocop
   rubocop-daemon
-  solargraph (= 0.48.0)
+  solargraph
   solargraph-rails
 
 BUNDLED WITH

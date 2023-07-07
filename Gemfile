@@ -10,6 +10,7 @@ gem 'pry'
 gem 'pry-doc'
 gem 'rubocop'
 gem 'rubocop-daemon'
+gem 'rubocop-rails'
 gem 'solargraph'
 gem 'solargraph-rails'
 # TODO: flycheck error

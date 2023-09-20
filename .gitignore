@@ -2,5 +2,6 @@
 
 vendor/bundler
 vendor/bin
+vendor/ruby
 /bin/*
 /rubocop-daemon-bin/*

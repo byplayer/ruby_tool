@@ -12,7 +12,6 @@ gem 'rubocop'
 gem 'rubocop-daemon'
 gem 'rubocop-performance'
 gem 'rubocop-rails'
-gem 'solargraph'
-gem 'solargraph-rails'
+gem 'ruby-lsp'
 # TODO: flycheck error
 # gem 'ruby-lint'

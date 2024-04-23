@@ -9,9 +9,14 @@ gem 'foodcritic'
 gem 'pry'
 gem 'pry-doc'
 gem 'rubocop'
+gem 'rubocop-capybara', require: false
 gem 'rubocop-daemon'
-gem 'rubocop-performance'
+gem 'rubocop-factory_bot', require: false
+gem 'rubocop-faker'
+gem 'rubocop-minitest', require: false
+gem 'rubocop-performance', require: false
 gem 'rubocop-rails'
+
 gem 'ruby-lsp'
 gem 'solargraph'
 gem 'solargraph-rails'

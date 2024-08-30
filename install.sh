@@ -1,13 +1,13 @@
 #!/bin/bash
 
-type brew > /dev/null
+type brew >/dev/null
 if [ $? -eq 0 ]; then
     source $(brew --prefix asdf)/libexec/asdf.sh
 fi
 
-pushd `dirname ${0}` > /dev/null
-BASE_DIR=`pwd -L`
-popd > /dev/null
+pushd $(dirname ${0}) >/dev/null
+BASE_DIR=$(pwd -L)
+popd >/dev/null
 
 export BUNDLE_GEMFILE=$BASE_DIR/Gemfile
 export RBENV_DIR=$BASE_DIR
@@ -25,8 +25,8 @@ cp vendor/bundler/ruby/*/gems/rubocop-daemon-*/bin/rubocop-daemon-wrapper vendor
 
 mkdir bin
 
-for bin_file in $( ls vendor/bin  ); do
-    cp bin_templ bin/`basename $bin_file`
+for bin_file in $(ls vendor/bin); do
+    cp bin_templ bin/$(basename $bin_file)
 done
 
 if [ -f bin/bundle ]; then
@@ -37,3 +37,6 @@ if [ -f "bin/rubocop-daemon-wrapper" ]; then
     mkdir rubocop-daemon-bin
     cp bin/rubocop-daemon-wrapper rubocop-daemon-bin/rubocop
 fi
+
+chmod -R go+r vendor
+chmod -R go+r bin

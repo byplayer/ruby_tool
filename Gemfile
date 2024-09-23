@@ -20,5 +20,6 @@ gem 'rubocop-rails'
 gem 'ruby-lsp'
 gem 'solargraph'
 gem 'solargraph-rails'
+gem 'xcpretty'
 # TODO: flycheck error
 # gem 'ruby-lint'

@@ -23,20 +23,20 @@ GEM
     ast (2.4.2)
     aws-eventstream (1.3.0)
     aws-partitions (1.977.0)
-    aws-sdk-core (3.206.0)
+    aws-sdk-core (3.208.0)
       aws-eventstream (~> 1, >= 1.3.0)
       aws-partitions (~> 1, >= 1.651.0)
       aws-sigv4 (~> 1.9)
       jmespath (~> 1, >= 1.6.1)
-    aws-sdk-kms (1.91.0)
-      aws-sdk-core (~> 3, >= 3.205.0)
+    aws-sdk-kms (1.93.0)
+      aws-sdk-core (~> 3, >= 3.207.0)
       aws-sigv4 (~> 1.5)
-    aws-sdk-s3 (1.163.0)
-      aws-sdk-core (~> 3, >= 3.205.0)
+    aws-sdk-s3 (1.165.0)
+      aws-sdk-core (~> 3, >= 3.207.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.5)
-    aws-sdk-secretsmanager (1.105.0)
-      aws-sdk-core (~> 3, >= 3.205.0)
+    aws-sdk-secretsmanager (1.107.0)
+      aws-sdk-core (~> 3, >= 3.207.0)
       aws-sigv4 (~> 1.5)
     aws-sigv4 (1.10.0)
       aws-eventstream (~> 1, >= 1.0.2)
@@ -325,6 +325,7 @@ GEM
     reverse_markdown (2.1.1)
       nokogiri
     rexml (3.3.7)
+    rouge (2.0.7)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
@@ -368,7 +369,7 @@ GEM
     rubocop-performance (1.22.1)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
-    rubocop-rails (2.26.1)
+    rubocop-rails (2.26.2)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.52.0, < 2.0)
@@ -410,7 +411,7 @@ GEM
     solve (4.0.4)
       molinillo (~> 0.6)
       semverse (>= 1.1, < 4.0)
-    sorbet-runtime (0.5.11572)
+    sorbet-runtime (0.5.11577)
     sslshake (1.3.1)
     strings (0.2.1)
       strings-ansi (~> 0.2)
@@ -490,6 +491,8 @@ GEM
       winrm (~> 2.0)
     wisper (2.0.1)
     wmi-lite (1.0.7)
+    xcpretty (0.3.0)
+      rouge (~> 2.0.7)
     yard (0.9.37)
 
 PLATFORMS
@@ -518,6 +521,7 @@ DEPENDENCIES
   ruby-lsp
   solargraph
   solargraph-rails
+  xcpretty
 
 BUNDLED WITH
    2.5.11

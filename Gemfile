@@ -19,6 +19,7 @@ gem 'rubocop-performance', require: false
 gem 'rubocop-rails'
 
 gem 'ruby-lsp'
+gem 'ruby-lsp-rails'
 gem 'solargraph'
 gem 'solargraph-rails'
 gem 'xcpretty'

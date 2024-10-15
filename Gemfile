@@ -20,6 +20,7 @@ gem 'rubocop-rails'
 
 gem 'ruby-lsp'
 gem 'ruby-lsp-rails'
+gem 'ruby-lsp-rspec'
 gem 'solargraph'
 gem 'solargraph-rails'
 gem 'xcpretty'

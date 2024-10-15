@@ -399,7 +399,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.2)
-    rubocop (1.66.1)
+    rubocop (1.67.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -437,6 +437,8 @@ GEM
       sorbet-runtime (>= 0.5.10782)
     ruby-lsp-rails (0.3.11)
       ruby-lsp (>= 0.17.2, < 0.18.0)
+    ruby-lsp-rspec (0.1.12)
+      ruby-lsp (~> 0.17.0)
     ruby-macho (2.5.1)
     ruby-progressbar (1.13.0)
     rubyntlm (0.6.5)
@@ -590,6 +592,7 @@ DEPENDENCIES
   rubocop-rails
   ruby-lsp
   ruby-lsp-rails
+  ruby-lsp-rspec
   solargraph
   solargraph-rails
   xcpretty

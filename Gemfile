@@ -18,6 +18,7 @@ gem 'rubocop-minitest', require: false
 gem 'rubocop-performance', require: false
 gem 'rubocop-rails'
 gem 'rubocop-rake'
+gem 'rubocop-shopify'
 gem 'rubocop-sorbet'
 
 gem 'ruby-lsp'

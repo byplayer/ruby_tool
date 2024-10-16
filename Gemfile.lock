@@ -351,7 +351,7 @@ GEM
       tty-color (~> 0.5)
     plist (3.7.1)
     polyglot (0.3.5)
-    prism (0.29.0)
+    prism (1.2.0)
     proxifier2 (1.1.0)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -371,7 +371,8 @@ GEM
       nokogiri (~> 1.14)
     rainbow (3.1.1)
     rake (13.2.1)
-    rbs (2.8.4)
+    rbs (3.6.1)
+      logger
     regexp_parser (2.9.2)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
@@ -437,14 +438,15 @@ GEM
       rubocop (~> 1.51)
     rubocop-sorbet (0.8.6)
       rubocop (>= 1)
-    ruby-lsp (0.17.2)
+    ruby-lsp (0.19.1)
       language_server-protocol (~> 3.17.0)
-      prism (>= 0.29.0, < 0.30)
+      prism (>= 1.1, < 2.0)
+      rbs (>= 3, < 4)
       sorbet-runtime (>= 0.5.10782)
-    ruby-lsp-rails (0.3.11)
-      ruby-lsp (>= 0.17.2, < 0.18.0)
-    ruby-lsp-rspec (0.1.12)
-      ruby-lsp (~> 0.17.0)
+    ruby-lsp-rails (0.3.18)
+      ruby-lsp (>= 0.19.0, < 0.20.0)
+    ruby-lsp-rspec (0.1.15)
+      ruby-lsp (~> 0.19.0)
     ruby-macho (2.5.1)
     ruby-progressbar (1.13.0)
     rubyntlm (0.6.5)
@@ -457,19 +459,18 @@ GEM
     securerandom (0.3.1)
     semverse (3.0.2)
     smart_properties (1.17.0)
-    solargraph (0.50.0)
+    solargraph (0.48.0)
       backport (~> 1.2)
       benchmark
-      bundler (~> 2.0)
+      bundler (>= 1.17.2)
       diff-lcs (~> 1.4)
       e2mmap
       jaro_winkler (~> 1.5)
       kramdown (~> 2.3)
       kramdown-parser-gfm (~> 1.1)
       parser (~> 3.0)
-      rbs (~> 2.0)
-      reverse_markdown (~> 2.0)
-      rubocop (~> 1.38)
+      reverse_markdown (>= 1.0.5, < 3)
+      rubocop (>= 0.52)
       thor (~> 1.0)
       tilt (~> 2.0)
       yard (~> 0.9, >= 0.9.24)
@@ -599,7 +600,7 @@ DEPENDENCIES
   rubocop-rake
   rubocop-shopify
   rubocop-sorbet
-  ruby-lsp
+  ruby-lsp (~> 0.19.0)
   ruby-lsp-rails
   ruby-lsp-rspec
   solargraph

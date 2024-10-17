@@ -21,7 +21,7 @@ gem 'rubocop-rake'
 gem 'rubocop-shopify'
 gem 'rubocop-sorbet'
 
-gem 'ruby-lsp'
+gem 'ruby-lsp', '~> 0.19.0'
 gem 'ruby-lsp-rails'
 gem 'ruby-lsp-rspec'
 gem 'solargraph'

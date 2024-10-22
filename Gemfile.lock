@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/byplayer/ruby-lsp-rspec.git
-  revision: d3f6ba308b243ccf288c0f97d22b9c91b99bc4f1
+  revision: 22bafa2f081c0a18bed1a124047fb91273e2cde5
   branch: wk
   specs:
     ruby-lsp-rspec (0.1.16)
@@ -39,7 +39,7 @@ GEM
     atomos (0.1.3)
     aws-eventstream (1.3.0)
     aws-partitions (1.992.0)
-    aws-sdk-core (3.210.0)
+    aws-sdk-core (3.211.0)
       aws-eventstream (~> 1, >= 1.3.0)
       aws-partitions (~> 1, >= 1.992.0)
       aws-sigv4 (~> 1.9)
@@ -54,7 +54,7 @@ GEM
     aws-sdk-secretsmanager (1.109.0)
       aws-sdk-core (~> 3, >= 3.210.0)
       aws-sigv4 (~> 1.5)
-    aws-sigv4 (1.10.0)
+    aws-sigv4 (1.10.1)
       aws-eventstream (~> 1, >= 1.0.2)
     backport (1.2.0)
     base64 (0.2.0)
@@ -426,9 +426,9 @@ GEM
       rubocop
     rubocop-factory_bot (2.26.1)
       rubocop (~> 1.61)
-    rubocop-faker (1.1.0)
+    rubocop-faker (1.2.0)
       faker (>= 2.12.0)
-      rubocop (>= 0.82.0)
+      rubocop (>= 1.13.0)
     rubocop-minitest (0.36.0)
       rubocop (>= 1.61, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)

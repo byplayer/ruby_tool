@@ -4,7 +4,6 @@ source 'http://rubygems.org'
 
 gem 'berkshelf'
 gem 'chef'
-gem 'cocoapods'
 gem 'erb_lint'
 gem 'foodcritic'
 gem 'pry'

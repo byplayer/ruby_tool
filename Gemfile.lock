@@ -1,10 +1,18 @@
 GIT
+  remote: https://github.com/byplayer/ruby-lsp-rails.git
+  revision: 3a01040ac964764cf672c4c59f3b7d92da8f015a
+  branch: main
+  specs:
+    ruby-lsp-rails (0.3.21)
+      ruby-lsp (>= 0.21.2, < 0.22.0)
+
+GIT
   remote: https://github.com/byplayer/ruby-lsp-rspec.git
-  revision: be61028f3f9f29beb666473e12df0e0a08e42541
+  revision: 0da0abf97ca5f51ce2c29b9d937a8a12b2007af9
   branch: wk
   specs:
-    ruby-lsp-rspec (0.1.17)
-      ruby-lsp (~> 0.20.1)
+    ruby-lsp-rspec (0.1.18)
+      ruby-lsp (~> 0.21.0)
 
 GEM
   remote: http://rubygems.org/
@@ -31,7 +39,7 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.2)
     aws-eventstream (1.3.0)
-    aws-partitions (1.999.0)
+    aws-partitions (1.1001.0)
     aws-sdk-core (3.211.0)
       aws-eventstream (~> 1, >= 1.3.0)
       aws-partitions (~> 1, >= 1.992.0)
@@ -136,7 +144,7 @@ GEM
     corefoundation (0.3.13)
       ffi (>= 1.15.0)
     crass (1.0.6)
-    date (3.3.4)
+    date (3.4.0)
     diff-lcs (1.5.1)
     domain_name (0.6.20240107)
     drb (2.2.1)
@@ -296,7 +304,7 @@ GEM
       train-core
       wmi-lite (~> 1.0)
     parallel (1.26.3)
-    parser (3.3.5.0)
+    parser (3.3.5.1)
       ast (~> 2.4.1)
       racc
     parslet (2.0.0)
@@ -353,7 +361,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.2)
-    rubocop (1.67.0)
+    rubocop (1.68.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -363,7 +371,7 @@ GEM
       rubocop-ast (>= 1.32.2, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.33.0)
+    rubocop-ast (1.33.1)
       parser (>= 3.3.1.0)
     rubocop-capybara (2.21.0)
       rubocop (~> 1.41)
@@ -389,15 +397,13 @@ GEM
       rubocop (~> 1.0)
     rubocop-shopify (2.15.1)
       rubocop (~> 1.51)
-    rubocop-sorbet (0.8.6)
+    rubocop-sorbet (0.8.7)
       rubocop (>= 1)
-    ruby-lsp (0.20.1)
+    ruby-lsp (0.21.2)
       language_server-protocol (~> 3.17.0)
       prism (>= 1.2, < 2.0)
       rbs (>= 3, < 4)
       sorbet-runtime (>= 0.5.10782)
-    ruby-lsp-rails (0.3.21)
-      ruby-lsp (>= 0.20.0, < 0.21.0)
     ruby-progressbar (1.13.0)
     rubyntlm (0.6.5)
       base64
@@ -430,7 +436,7 @@ GEM
     solve (4.0.4)
       molinillo (~> 0.6)
       semverse (>= 1.1, < 4.0)
-    sorbet-runtime (0.5.11625)
+    sorbet-runtime (0.5.11633)
     sslshake (1.3.1)
     strings (0.2.1)
       strings-ansi (~> 0.2)
@@ -488,7 +494,7 @@ GEM
     uuidtools (2.2.0)
     vault (0.18.2)
       aws-sigv4
-    webrick (1.8.2)
+    webrick (1.9.0)
     winrm (2.3.9)
       builder (>= 2.1.2)
       erubi (~> 1.8)
@@ -541,7 +547,7 @@ DEPENDENCIES
   rubocop-shopify
   rubocop-sorbet
   ruby-lsp
-  ruby-lsp-rails
+  ruby-lsp-rails!
   ruby-lsp-rspec!
   solargraph
   solargraph-rails

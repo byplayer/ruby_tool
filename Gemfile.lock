@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/byplayer/ruby-lsp-rails.git
-  revision: 3a01040ac964764cf672c4c59f3b7d92da8f015a
-  branch: main
-  specs:
-    ruby-lsp-rails (0.3.21)
-      ruby-lsp (>= 0.21.2, < 0.22.0)
-
-GIT
   remote: https://github.com/byplayer/ruby-lsp-rspec.git
   revision: 45690d70a7a3f778cf7a2db07ced73b1498e13a3
   branch: wk
@@ -405,6 +397,8 @@ GEM
       prism (>= 1.2, < 2.0)
       rbs (>= 3, < 4)
       sorbet-runtime (>= 0.5.10782)
+    ruby-lsp-rails (0.3.26)
+      ruby-lsp (>= 0.21.2, < 0.22.0)
     ruby-progressbar (1.13.0)
     rubyntlm (0.6.5)
       base64
@@ -548,7 +542,7 @@ DEPENDENCIES
   rubocop-shopify
   rubocop-sorbet
   ruby-lsp
-  ruby-lsp-rails!
+  ruby-lsp-rails
   ruby-lsp-rspec!
   solargraph
   solargraph-rails

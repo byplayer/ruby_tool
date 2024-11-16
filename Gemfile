@@ -21,7 +21,7 @@ gem 'rubocop-shopify'
 gem 'rubocop-sorbet'
 
 gem 'ruby-lsp'
-gem 'ruby-lsp-rails', git: 'https://github.com/byplayer/ruby-lsp-rails.git', branch: 'main'
+gem 'ruby-lsp-rails'
 gem 'ruby-lsp-rspec', git: 'https://github.com/byplayer/ruby-lsp-rspec.git', branch: 'wk'
 gem 'solargraph'
 gem 'solargraph-rails'

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/byplayer/ruby-lsp-rspec.git
-  revision: 45690d70a7a3f778cf7a2db07ced73b1498e13a3
+  revision: df3c8dafc6151e861ee88d430758cac624014d07
   branch: wk
   specs:
     ruby-lsp-rspec (0.1.18)

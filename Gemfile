@@ -2,10 +2,7 @@
 
 source 'http://rubygems.org'
 
-gem 'berkshelf'
-gem 'chef'
 gem 'erb_lint'
-gem 'foodcritic'
 gem 'pry'
 gem 'pry-doc'
 gem 'rubocop'
@@ -23,8 +20,6 @@ gem 'rubocop-sorbet'
 gem 'ruby-lsp'
 gem 'ruby-lsp-rails'
 gem 'ruby-lsp-rspec', git: 'https://github.com/byplayer/ruby-lsp-rspec.git', branch: 'wk'
-gem 'solargraph'
-gem 'solargraph-rails'
 gem 'xcpretty'
 # TODO: flycheck error
 # gem 'ruby-lint'

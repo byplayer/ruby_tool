@@ -20,7 +20,7 @@ bundle config build.ffi-yajl --with-ldflags="-Wl,-undefined,dynamic_lookup"
 if [ -d vendor/bundler ]; then
     rm -rf vendor/bundler
 fi
-bundle install
+bundle install --local
 bundle clean
 
 # for rubocop-daemon

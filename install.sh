@@ -34,7 +34,7 @@ if [ -f bin/bundle ]; then
 fi
 
 if [ -f "bin/rubocop-daemon-wrapper" ]; then
-    mkdir rubocop-daemon-bin
+    mkdir -p rubocop-daemon-bin
     cp bin/rubocop-daemon-wrapper rubocop-daemon-bin/rubocop
 fi
 

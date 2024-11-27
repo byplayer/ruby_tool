@@ -7,7 +7,7 @@ SCRIPT_DIR=$(
     pwd
 )
 
-pushd "$SCRIPT_DIR" >/dev/null
+pushd "$SCRIPT_DIR/../" >/dev/null
 
 ./install.sh
 

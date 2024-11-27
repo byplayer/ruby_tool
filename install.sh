@@ -4,12 +4,14 @@
 
 set -eu
 
+echo "refresh gem files"
+
 type brew >/dev/null
 if [ $? -eq 0 ]; then
-    source $(brew --prefix asdf)/libexec/asdf.sh
+    source "$(brew --prefix asdf)/libexec/asdf.sh"
 fi
 
-pushd $(dirname ${0}) >/dev/null
+pushd "$(dirname ${0})" >/dev/null
 BASE_DIR=$(pwd -L)
 popd >/dev/null
 

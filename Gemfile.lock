@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/byplayer/ruby-lsp-rspec.git
-  revision: 402e9b03a4ae1f9342c091cee5b844860af7ae62
+  revision: 2412686beb0a1f31480f0e802fdbe1235cfb612c
   branch: wk
   specs:
-    ruby-lsp-rspec (0.1.18)
-      ruby-lsp (~> 0.21.0)
+    ruby-lsp-rspec (0.1.19)
+      ruby-lsp (~> 0.22.0)
 
 GEM
   remote: http://rubygems.org/
@@ -64,7 +64,7 @@ GEM
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     method_source (1.1.0)
-    minitest (5.25.3)
+    minitest (5.25.4)
     nokogiri (1.16.8-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.16.8-arm-linux)
@@ -140,17 +140,17 @@ GEM
       rubocop (~> 1.51)
     rubocop-sorbet (0.8.7)
       rubocop (>= 1)
-    ruby-lsp (0.21.3)
+    ruby-lsp (0.22.1)
       language_server-protocol (~> 3.17.0)
       prism (>= 1.2, < 2.0)
       rbs (>= 3, < 4)
       sorbet-runtime (>= 0.5.10782)
-    ruby-lsp-rails (0.3.26)
-      ruby-lsp (>= 0.21.2, < 0.22.0)
+    ruby-lsp-rails (0.3.27)
+      ruby-lsp (>= 0.22.0, < 0.23.0)
     ruby-progressbar (1.13.0)
     securerandom (0.4.0)
     smart_properties (1.17.0)
-    sorbet-runtime (0.5.11672)
+    sorbet-runtime (0.5.11678)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.1.2)

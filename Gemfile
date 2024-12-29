@@ -13,6 +13,7 @@ gem 'rubocop-faker'
 gem 'rubocop-minitest', require: false
 gem 'rubocop-performance', require: false
 gem 'rubocop-rails'
+gem 'rubocop-rails-omakase'
 gem 'rubocop-rake'
 gem 'rubocop-shopify'
 gem 'rubocop-sorbet'

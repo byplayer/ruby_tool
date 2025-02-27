@@ -2,6 +2,6 @@ pushd $(dirname ${0})/.. >/dev/null
 BASE_DIR=$(pwd)
 popd >/dev/null
 
-export ASDF_RUBY_VERSION=$(cat ${BASE_DIR}.tool-versions | grep ruby | awk '{print $2;}')
+export ASDF_RUBY_VERSION=$(cat ${BASE_DIR}/.tool-versions | grep ruby | awk '{print $2;}')
 
 export BUNDLE_GEMFILE=${BASE_DIR}/Gemfile

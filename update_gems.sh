@@ -1,11 +1,13 @@
 #!/bin/bash
 
-set -ex
+set -eu
+
+git switch -c "update_packages_$(date +"%Y%m%d%H%M%S")"
 
 rm -f Gemfile.lock
 bundle update
 bundle clean
 
 git add .
-git commit -m "⬆️ upgrade gems"
-git push
+git commit -m "⬆️ upgrade packages"
+git ex push

@@ -21,6 +21,7 @@ gem 'rubocop-sorbet'
 gem 'ruby-lsp'
 gem 'ruby-lsp-rails'
 gem 'ruby-lsp-rspec', git: 'https://github.com/byplayer/ruby-lsp-rspec.git', branch: 'wk'
+gem 'solargraph'
 gem 'xcpretty'
 # TODO: flycheck error
 # gem 'ruby-lint'

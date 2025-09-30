@@ -1,21 +1,13 @@
-GIT
-  remote: https://github.com/byplayer/ruby-lsp-rspec.git
-  revision: 3ac063343fccc9c3c6b0dc14fabb69b718d964ae
-  branch: wk
-  specs:
-    ruby-lsp-rspec (0.1.23)
-      ruby-lsp (~> 0.23.19)
-
 GEM
   remote: http://rubygems.org/
   specs:
-    actionview (8.0.2.1)
-      activesupport (= 8.0.2.1)
+    actionview (8.0.3)
+      activesupport (= 8.0.3)
       builder (~> 3.1)
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    activesupport (8.0.2.1)
+    activesupport (8.0.3)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -57,7 +49,7 @@ GEM
       i18n (>= 1.8.11, < 2)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    json (2.14.1)
+    json (2.15.0)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     logger (1.7.0)
@@ -107,7 +99,7 @@ GEM
       logger
     regexp_parser (2.11.3)
     rouge (3.28.0)
-    rubocop (1.80.2)
+    rubocop (1.81.1)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -115,10 +107,10 @@ GEM
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.46.0, < 2.0)
+      rubocop-ast (>= 1.47.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.46.0)
+    rubocop-ast (1.47.1)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     rubocop-capybara (2.22.1)
@@ -141,7 +133,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)
       rubocop-ast (>= 1.44.0, < 2.0)
-    rubocop-rails (2.33.3)
+    rubocop-rails (2.33.4)
       activesupport (>= 4.2.0)
       lint_roller (~> 1.1)
       rack (>= 1.1)
@@ -159,17 +151,17 @@ GEM
     rubocop-sorbet (0.10.5)
       lint_roller
       rubocop (>= 1.75.2)
-    ruby-lsp (0.23.24)
+    ruby-lsp (0.26.1)
       language_server-protocol (~> 3.17.0)
       prism (>= 1.2, < 2.0)
       rbs (>= 3, < 5)
-      sorbet-runtime (>= 0.5.10782)
-    ruby-lsp-rails (0.4.5)
-      ruby-lsp (>= 0.23.18, < 0.24.0)
+    ruby-lsp-rails (0.4.8)
+      ruby-lsp (>= 0.26.0, < 0.27.0)
+    ruby-lsp-rspec (0.1.28)
+      ruby-lsp (~> 0.26.0)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
     smart_properties (1.17.0)
-    sorbet-runtime (0.6.12549)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.2.0)
@@ -208,7 +200,7 @@ DEPENDENCIES
   rubocop-sorbet
   ruby-lsp
   ruby-lsp-rails
-  ruby-lsp-rspec!
+  ruby-lsp-rspec
   xcpretty
 
 BUNDLED WITH

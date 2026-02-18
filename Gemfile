@@ -3,7 +3,6 @@
 source 'http://rubygems.org'
 
 gem 'erb_lint'
-gem 'foreman'
 gem 'pry-doc'
 gem 'pry'
 gem 'rubocop-capybara', require: false

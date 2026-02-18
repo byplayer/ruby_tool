@@ -15,22 +15,22 @@ export RBENV_DIR=$BASE_DIR
 
 rm -rf bin
 
-bundle config --local path vendor/bundler
-bundle config --local bin vendor/bin
-bundle config build.ffi-yajl --with-ldflags="-Wl,-undefined,dynamic_lookup"
+bundle config set --local jobs '4'
+bundle config set --local path vendor/bundler
+bundle config set build.ffi-yajl --with-ldflags="-Wl,-undefined,dynamic_lookup"
+
 if [ -d vendor/bundler ]; then
     rm -rf vendor/bundler
 fi
 bundle install --local
 bundle clean
 
-# for rubocop-daemon
-cp vendor/bundler/ruby/*/gems/rubocop-daemon-*/bin/rubocop-daemon-wrapper vendor/bin/
-
 mkdir bin
 
-for bin_file in $(ls vendor/bin); do
-    cp bin_templ bin/$(basename $bin_file)
+for bin_file in vendor/bundler/ruby/*/bin/*; do
+    bin_name=$(basename $bin_file)
+    sed "s|@BINFILE@|$bin_file|g" bin_templ >"bin/$bin_name"
+    chmod +x "bin/$bin_name"
 done
 
 if [ -f bin/bundle ]; then

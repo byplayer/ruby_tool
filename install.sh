@@ -13,6 +13,8 @@ popd >/dev/null
 export BUNDLE_GEMFILE=$BASE_DIR/Gemfile
 export RBENV_DIR=$BASE_DIR
 
+asdf install
+
 rm -rf bin
 
 bundle config set --local jobs '4'

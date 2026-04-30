@@ -3,7 +3,7 @@
 set -eu
 
 rm -f Gemfile.lock
-bundle update
+bundle update --all
 bundle clean
 
 if [[ -z $(git status --porcelain) ]]; then
